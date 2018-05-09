@@ -1,2 +1,2 @@
 # geocluster
-Fast geospatial clustering and filtering
+Fast geospatial clustering and filtering - coming soon!
