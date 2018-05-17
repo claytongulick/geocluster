@@ -1,0 +1,30 @@
+{
+  "name": "geocluster",
+  "version": "1.0.0",
+  "description": "Fast geo clustering with arbitrary data filters",
+  "main": "filtering_quad_tree.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claytongulick/geocluster.git"
+  },
+  "keywords": [
+    "clustering",
+    "geo",
+    "geospatial",
+    "points",
+    "map",
+    "cluster"
+  ],
+  "author": "Clayton Gulick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claytongulick/geocluster/issues"
+  },
+  "homepage": "https://github.com/claytongulick/geocluster#readme",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
