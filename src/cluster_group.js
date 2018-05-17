@@ -60,6 +60,10 @@ class ClusterGroup {
                 let cluster = new Cluster(raw_cluster, this._aggregator);
                 clusters.push(cluster);
             }
+
+        return clusters;
     }
 
 }
+
+export default ClusterGroup;

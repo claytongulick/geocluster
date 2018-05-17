@@ -1,5 +1,3 @@
-'use module';
-
 /**
  * filteringQuadTree.js
  *
