@@ -2,7 +2,7 @@ let node_externals = require('webpack-node-externals');
 let path = require('path');
 let node_config = {
     target: 'node',
-    entry: './src/index.js',
+    entry: './index.node.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'geocluster.node.js'
@@ -12,11 +12,12 @@ let node_config = {
 };
 
 let web_config = {
-    target: 'web', // <=== can be omitted as default is 'web'
-    entry: './src/index.js',
+    target: 'web', 
+    entry: './index.node.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'geocluster.js'
+        filename: 'geocluster.js',
+        library: 'GeoCluster'
     },
     module: {
         rules: [

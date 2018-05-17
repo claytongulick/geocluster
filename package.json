@@ -2,7 +2,7 @@
   "name": "geocluster",
   "version": "1.0.0",
   "description": "Fast geo clustering with arbitrary data filters",
-  "main": "filtering_quad_tree.js",
+  "main": "./dist/geocluster.node.js",
   "scripts": {
     "test": "test",
     "build-node-service": "webpack --entry ./src/service/service.js --output ./dist/service/service.js"
